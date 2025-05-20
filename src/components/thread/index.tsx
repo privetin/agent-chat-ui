@@ -30,6 +30,7 @@ import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { Label } from "../ui/label";
 import { Switch } from "../ui/switch";
 import { GitHubSVG } from "../icons/github";
+import { ThemeToggleButton } from "@/components/ui/theme-toggle-button";
 import {
   Tooltip,
   TooltipContent,
@@ -303,7 +304,8 @@ export function Thread() {
                   </Button>
                 )}
               </div>
-              <div className="absolute top-2 right-4 flex items-center">
+              <div className="absolute top-2 right-4 flex items-center gap-2">
+                <ThemeToggleButton />
                 <OpenGitHubRepo />
               </div>
             </div>
@@ -349,7 +351,8 @@ export function Thread() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="flex items-center">
+                <div className="flex items-center gap-2">
+                  <ThemeToggleButton />
                   <OpenGitHubRepo />
                 </div>
                 <TooltipIconButton
