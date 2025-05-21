@@ -116,7 +116,7 @@ export function ToolResult({ message }: { message: ToolMessage }) {
           </div>
         </div>
         <motion.div
-          className="min-w-full bg-gray-100"
+          className="min-w-full bg-secondary"
           initial={false}
           animate={{ height: "auto" }}
           transition={{ duration: 0.3 }}
