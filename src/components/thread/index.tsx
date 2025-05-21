@@ -100,7 +100,7 @@ function OpenGitHubRepo() {
             />
           </a>
         </TooltipTrigger>
-        <TooltipContent side="left">
+        <TooltipContent side="bottom">
           <p>Open GitHub repo</p>
         </TooltipContent>
       </Tooltip>
